@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "Orfi Active",
+    "slug": "orfi-active",
+    "privacy": "unlisted",
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "packagerOpts": {
+      "config": "metro.config.js"
+    },
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "entryPoint": "./src/App.js",
+    "icon": "./src/assets/images/icon.png",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#F91874"
+    },
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.orfimedia.active"
+    },
+    "ios": {
+      "bundleIdentifier": "com.orfimedia.active",
+      "supportsTablet": true
+    },
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "orfi",
+            "project": "orfi-active",
+            "authToken": "56d658ecaf0443ef9e76dd58d0aafbe5a3a02136cab64b79ae205908a5e0c512"
+          }
+        }
+      ]
+    },
+    "description": ""
+  }
+}

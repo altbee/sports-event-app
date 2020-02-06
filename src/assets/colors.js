@@ -1,0 +1,15 @@
+export default {
+  black: '#000',
+  black1: '#292c34',
+  white: '#fff',
+  white1: '#d4d4d6',
+  white2: '#f8f8f8',
+  white3: '#d3d4d5',
+  white4: '#ebebec',
+  white5: '#e4e4e5',
+  pink1: '#f91874',
+  pink2: '#c30f58',
+  gray1: '#707070',
+  gray2: '#777777',
+  transparent: '#0000',
+}

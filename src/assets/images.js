@@ -1,0 +1,5 @@
+export const IMAGE_LOGO_LIGHT_ALT = require('./images/logo-light-alt.png')
+export const IMAGE_LOGO_DARK = require('./images/logo-dark.png')
+export const IMAGE_LOGO_LIGHT = require('./images/logo-light.png')
+export const IMAGE_LOGO = require('./images/logo.png')
+export const IMAGE_AUTH_BACKGROUND = require('./images/auth-background.jpg')

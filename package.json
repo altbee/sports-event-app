@@ -1,0 +1,62 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/samples": "2.1.1",
+    "@ptomasroos/react-native-multi-slider": "^1.0.0",
+    "@wordpress/api-fetch": "^3.0.0",
+    "apollo-boost": "^0.3.1",
+    "axios": "^0.18.0",
+    "babel-eslint": "^10.0.1",
+    "eslint-plugin-react-native": "^3.6.0",
+    "expo": "^32.0.6",
+    "formik": "^1.5.1",
+    "gql": "^1.1.2",
+    "graphql": "^14.1.1",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "react": "16.5.0",
+    "react-apollo": "^2.5.2",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-calendars": "^1.22.0",
+    "react-native-elements": "^1.0.0",
+    "react-native-google-places-autocomplete": "^1.3.9",
+    "react-native-iphone-x-helper": "^1.2.0",
+    "react-native-map-clustering": "^1.3.2",
+    "react-native-maps-super-cluster": "^1.5.0",
+    "react-native-modal-datetime-picker": "^6.0.0",
+    "react-native-picker-select": "^6.1.0",
+    "react-native-render-html": "^4.1.2",
+    "react-native-segmented-control-tab": "^3.4.0",
+    "react-native-snap-carousel": "^3.7.5",
+    "react-native-switch-pro": "^1.0.2",
+    "react-navigation": "^3.6.1",
+    "react-navigation-stack": "^1.1.1",
+    "recompose": "^0.30.0",
+    "sentry-expo": "^1.11.2",
+    "striptags": "^3.1.1",
+    "supercluster": "^6.0.1",
+    "yup": "^0.26.10"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "jest-expo": "^32.0.0",
+    "prettier": "^1.16.4",
+    "react-native-svg-transformer": "^0.12.1"
+  },
+  "private": true
+}
